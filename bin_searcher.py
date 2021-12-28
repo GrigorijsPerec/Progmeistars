@@ -1,13 +1,13 @@
-def BinarySearch(sda, ser):
+def BinarySearch_game(vel, searched):
     left = 0
-    right = len(sda)-1
+    right = len(vel)-1
     index = -1
     while (left <= right) and (index == -1):
         mid = (left + right)//2
-        if sda[mid] == ser:
+        if vel[mid] == searched:
             index = mid
         else:
-            if ser<sda[mid]:
+            if searched<vel[mid]:
                 right = mid -1
             else:
                 left = mid +1
