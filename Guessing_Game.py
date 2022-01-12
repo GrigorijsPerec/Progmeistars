@@ -37,6 +37,6 @@ while (left <= right) and (index == -1):
             right = mid -1
         else:
             left = mid +1
-print("Компьютер нашел ваше число с помощью баначного поиска, и индекс этого числа:\n\n"+ Fore.LIGHTYELLOW_EX + str(index))
+print("Компьютер нашел ваше число с помощью  бинарного поиска, и индекс этого числа:\n\n"+ Fore.LIGHTYELLOW_EX + str(index))
 
 
